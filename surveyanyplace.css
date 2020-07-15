@@ -1,0 +1,123 @@
+/* This is a custom stylesheet used to customize the
+** look and feel of surveys created in the SurveyAnyplace tool. 
+** 
+** SurveyAnyplace: https://surveyanyplace.com/
+** Add Custom CSS: https://help.surveyanyplace.com/en/support/solutions/articles/35000149062-custom-css
+*/
+
+
+.font-large, .font-xlarge {
+    color: #09192D;
+}
+
+.text-container {
+    margin-bottom: 1.25em;
+}
+
+.primary-purple {
+    color: rgb(54, 59, 127);
+}
+
+.button {
+    font-weight: bold;
+    letter-spacing: .12em;
+}
+
+.icon-prev:before {
+    color: rgb(54, 59, 127);
+}
+
+.campaign-survey-button.done, .campaign-survey-button.inactive, .card-actions .prev, .card-actions .refresh {
+    background-color: rgba(54, 59, 127, 0.1);
+}
+
+
+.answer-content {
+    background-color: rgba(54, 59, 127, 0.1);
+    color: rgb(54, 59, 127);
+}
+
+.answer-content, .answer-result, .checkbox, .input, .radio, .select {
+    border-color: rgb(54, 59, 127, .2);
+    margin-bottom: .5em;
+}
+
+.select {
+    margin-bottom: 1em;
+}
+
+.card-logo {
+    max-width: 13em;
+}
+
+.text-container ul > li {
+    margin-bottom: 0.75em;
+}
+
+/* Media queries to improve the mobile experience */
+
+@media (min-width: 1400px) {
+.theme-layout-left .card-logo {
+    max-width: 13em;
+    }
+}
+
+@media (min-width: 600px) {
+    .theme-layout-left .card-logo {
+        max-width: 13em;
+    }
+}
+
+
+/* CSS for adding an accessibile css-only accordion element to 
+** a WYSIWYG editor in SurveyAnyplace. 
+** Tutorial: https://dev.to/hozefaj/fully-accessible-accordion-with-html-css-no-js-59n9 
+*/
+
+ details {
+    /* padding: 20px 0; */
+    color: rgb(54, 59, 127);
+    border-bottom: 1px solid rgb(54, 59, 127);
+  }
+  
+  summary {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-weight: bold;
+    background-color: rgba(54, 59, 127, 0.1);
+    color: rgb(54, 59, 127);
+    padding: 1em;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    transition: all 0.3s ease-out;
+    border-bottom: 1px solid rgb(54, 59, 127);
+    border-right: 1px solid rgb(54, 59, 127);
+    float: right;
+  }
+  
+  details[open] summary:after {
+    content: "";
+    transform: rotate(-135deg);
+    margin-top: 8px;
+    color: #09192D;
+  }
+  
+  details a {
+    color: rgb(54, 59, 127);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  details p {
+    padding: 0 10px;
+    color: #09192D;
+  }
