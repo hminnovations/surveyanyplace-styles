@@ -62,6 +62,11 @@ margin-bottom: 4em;
 
 }
 
+.arc-inner {
+    border-top-color: #56FDD2;
+    border-right-color: #56FDD2;
+}
+
 
 /* Media queries to improve the mobile experience */
 
