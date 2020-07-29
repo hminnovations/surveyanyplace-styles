@@ -54,6 +54,15 @@
     margin-bottom: 0.75em;
 }
 
+// adds bottom margin to any bar chart grid in the survey
+
+barchart-widget .grid {
+
+margin-bottom: 4em;
+
+}
+
+
 /* Media queries to improve the mobile experience */
 
 @media (min-width: 1400px) {
