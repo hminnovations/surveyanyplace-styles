@@ -51,7 +51,7 @@ div.button.prev {
     letter-spacing: .12em;
 }
 
-.icon .icon-prev:before {
+.icon.icon-prev:before {
     text-transform: uppercase;
 }
 
