@@ -35,6 +35,18 @@
     width: auto;
 }
 
+.card-actions .prev .icon, .card-actions .refresh .icon {
+    vertical-align: baseline;
+}
+
+.icon, .ligature-icons {
+    font-family: inherit;
+}
+
+.icon-prev:before {
+    text-transform: uppercase;
+}
+
 
 .answer-content {
     background-color: rgba(54, 59, 127, 0.1);
