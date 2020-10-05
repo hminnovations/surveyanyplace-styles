@@ -43,8 +43,10 @@
     font-family: inherit;
 }
 
-.icon-prev:before {
+.icon .icon-prev {
+    font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: .12em;
 }
 
 
