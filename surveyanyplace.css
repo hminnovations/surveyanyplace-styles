@@ -43,12 +43,11 @@
     font-family: inherit;
 }
 
-.button .prev {
+div.button.prev {
     padding: .6em 1.2em;
 }
 
-.icon .icon-prev {
-    font-weight: 700;
+.icon.icon-prev {
     letter-spacing: .12em;
 }
 
